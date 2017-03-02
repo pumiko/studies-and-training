@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="kontakty">
+      <xs:complexType>
+        <xs:sequence>
+          <xs:element name="kontakt" minOccurs="1" maxOccurs="unbounded">
+            <xs:complexType>
+             <xs:sequence>
+                <xs:element name="imie_i_nazwisko" type="xs:string"/>
+                <xs:element name="adres" minOccurs="1" maxOccurs="1">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="ulica" type="xs:string"/>
+                      <xs:element name="nr_domu" type="xs:positiveInteger"/>
+                      <xs:element name="kod_pocztowy" type="xs:string"/>
+                      <xs:element name="miejscowosc" type="xs:string"/>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="telefon" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element name="email" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element name="notatki" minOccurs="0" maxOccurs="unbounded">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="notatka" type="xs:string"/>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+             </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<StyledLayerDescriptor version="1.0.0" 
+ xsi:schemaLocation="http://www.opengis.net/sld StyledLayerDescriptor.xsd" 
+ xmlns="http://www.opengis.net/sld" 
+ xmlns:ogc="http://www.opengis.net/ogc" 
+ xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<NamedLayer>
+		<Name>DEM</Name>
+		<UserStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>DEM</Name>
+					<RasterSymbolizer>
+						<ColorMap>
+							<ColorMapEntry color="#7E8B51" quantity="50" label="50" opacity="1"/>
+							<ColorMapEntry color="#ADB477" quantity="100" label="100" opacity="1"/>
+							<ColorMapEntry color="#D1D398" quantity="200" label="200" opacity="1"/>
+							<ColorMapEntry color="#F5F1BF" quantity="400" label="400" opacity="1"/>
+							<ColorMapEntry color="#F2DBA2" quantity="600" label="600" opacity="1"/>
+							<ColorMapEntry color="#E4BD8C" quantity="800" label="800" opacity="1"/>
+							<ColorMapEntry color="#D4A479" quantity="1200" label="1200" opacity="1"/>
+							<ColorMapEntry color="#CB8F6A" quantity="1600" label="1600" opacity="1"/>
+						</ColorMap>
+					</RasterSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+		</UserStyle>
+	</NamedLayer>
+</StyledLayerDescriptor>

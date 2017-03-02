@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:simpleType name="ISBNType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{10}"/>
+      <xs:pattern value="[0-9]{13}"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:element name="biblioteczka">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ksiazka" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="sygnatura" type="xs:string" minOccurs="1" maxOccurs="1"/>
+              <xs:element name="autor" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+              <xs:element name="tytul" type="xs:string" minOccurs="1" maxOccurs="1"/>
+              <xs:element name="podtytul" type="xs:string" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="wydanie" type="xs:positiveInteger" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="wydawnictwo" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+              <xs:element name="isbn" type="ISBNType" maxOccurs="1"/>
+              <xs:element name="opis" type="xs:string" minOccurs="0" maxOccurs="1"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

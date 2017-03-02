@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<przepis>
+<tytul>Zupa z ostryg</tytul> 
+<autor>Eric Lease Morgan &amp; James Cook</autor>
+<prawa_autorskie posiadacz="Eric Lease Morgan">&#169; 2003</prawa_autorskie>
+<skladniki><!-- tu podany jest przepis -->
+ <lista>
+  <skladnik>1 łodyga selera</skladnik>
+  <skladnik>1 cebula</skladnik>
+  <skladnik>2 łyżki stołowe masła</skladnik>
+  <skladnik>2 szklanki ostryg wraz z płynem</skladnik>
+  <skladnik>2 szklanki mleka i śmietany zmieszanych w proporcji 1:1</skladnik>
+ </lista>
+</skladniki>
+<przyrzadzenie>
+ <p>Zacznij od podsmażenia selera i cebuli na maśle, aż do osiągnięcia przez nie miękkości. Dodaj ostrygi, płyn z ostryg i śmietanę, gotuj aż do wypłynięcia ostryg. Podawaj w ogrzanych naczyniach.</p> 
+ <p><i>Pycha!</i></p>
+</przyrzadzenie>
+</przepis>

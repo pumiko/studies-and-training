@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kontakty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="2_1_schema.xsd">
+	<kontakt>
+		<imie_i_nazwisko>Dorota Czerwińska</imie_i_nazwisko>
+		<adres>
+			<ulica>ul. Batalionów Chłopskich</ulica>
+      <nr_domu>115</nr_domu>
+			<kod_pocztowy>01-308</kod_pocztowy>
+			<miejscowosc>Warszawa</miejscowosc>
+		</adres>
+		<notatki>
+			<notatka>brak</notatka>
+		</notatki>
+	</kontakt>
+	
+	<kontakt>
+		<imie_i_nazwisko>Dita Szczepańska</imie_i_nazwisko>
+		<adres>
+      <ulica>Pl. Generała Hallera Józefa</ulica>
+      <nr_domu>55</nr_domu>
+			<kod_pocztowy>90-647</kod_pocztowy>
+			<miejscowosc>Łódź</miejscowosc>
+		</adres>
+		<telefon>+48-601-812-797</telefon>
+	</kontakt>
+
+	<kontakt>
+		<imie_i_nazwisko>Anastazja Pawlak</imie_i_nazwisko>
+		<adres>
+      <ulica>ul. Komandorska</ulica>
+      <nr_domu>109</nr_domu>
+			<kod_pocztowy>53-343</kod_pocztowy>
+			<miejscowosc>Wrocław</miejscowosc>
+		</adres>
+		<telefon>+48-718-865-842</telefon>
+	</kontakt>
+
+	<kontakt>
+		<imie_i_nazwisko>Andrzej Nowakowski</imie_i_nazwisko>
+		<adres>
+      <ulica>ul. Zygmunta</ulica>
+      <nr_domu>99</nr_domu>
+			<kod_pocztowy>93-341</kod_pocztowy>
+			<miejscowosc>Łódź</miejscowosc>
+		</adres>
+	</kontakt>
+	
+	<kontakt>
+		<imie_i_nazwisko>Łukasz Zielinski</imie_i_nazwisko>
+		<adres>
+      <ulica>ul. Hołubcowa</ulica>
+      <nr_domu>79</nr_domu>
+			<kod_pocztowy>02-854</kod_pocztowy>
+			<miejscowosc>Warszawa</miejscowosc>
+		</adres>
+		<email>Lukasz.Zielinski@superdostawca.com</email>
+	</kontakt>
+</kontakty>
